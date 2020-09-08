@@ -6,10 +6,10 @@ describe('for strings', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expectedCharWithinRange = {};
-    const expectedCharOutOfRange = {};
+    const expectedCharWithinRange = 'e';
+    const expectedCharOutOfRange = undefined;
     // --end->
-
+    
     expect(characterWithinRange).toEqual(expectedCharWithinRange);
     expect(characterOutOfRange).toEqual(expectedCharOutOfRange);
   });
@@ -20,7 +20,7 @@ describe('for strings', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 'Hello World';
     // --end->
 
     expect(template).toEqual(expected);
@@ -31,7 +31,7 @@ describe('for strings', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 'nut';
     // --end->
 
     expect(string.slice(4, 7)).toEqual(expected);
@@ -42,9 +42,9 @@ describe('for strings', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 5;
     // --end->
-
+   
     expect(string.indexOf('ut')).toEqual(expected);
   });
 
@@ -53,7 +53,7 @@ describe('for strings', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 'coconuts';
     // --end->
 
     expect(string.trim()).toEqual(expected);
@@ -65,9 +65,9 @@ describe('for strings', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = [ 'what', 'a', 'beautiful', '', '', '', 'day' ];
     // --end->
-
+    
     expect(splitted).toEqual(expected);
   });
 
@@ -76,9 +76,9 @@ describe('for strings', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected ='what->a->beautiful->day';
     // --end->
-
+    
     expect(splitted.join('->')).toEqual(expected);
   });
 
@@ -87,7 +87,7 @@ describe('for strings', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 4;
     // --end->
 
     expect(emoji.length).toEqual(expected);
